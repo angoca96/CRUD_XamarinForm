@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CRUDXamarinFormSysne.MainPage">
+
+    <StackLayout>
+        <Label Text="CRUD para Sysne: Estacionamiento." 
+           HorizontalOptions="Center"
+           VerticalOptions="Center"/>
+
+        <Entry x:Name="matricula" Placeholder="Matricula"></Entry>
+
+        <Picker x:Name="tipoAuto" Title="Tipo de auto" >
+            <Picker.Items>
+                <x:String> Coche </x:String>
+                <x:String> Camioneta </x:String>
+                <x:String> Motocicleta </x:String>
+                <x:String> Camión </x:String>
+            </Picker.Items>
+        </Picker>
+
+
+        <Entry x:Name="NombreConductor" Placeholder="Nombre del Conductor"/>
+
+        <Button 
+            Text="Agregar auto"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Clicked="Button_Clicked"
+            />
+
+        <Button
+            x:Name="ver"
+            Text="Actualizar registros"
+            Clicked="ver_Clicked"
+            />
+
+        <Label x:Name="resultados"></Label>
+
+        <ListView x:Name="VistaLista" ItemSelected="VistaLista_ItemSelected" ItemTapped="VistaLista_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell Height="60" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="70"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Label Text="Matricula: "/>
+                            <Label x:Name="lblMatricula" Grid.Column="1" Text="{Binding Matricula}" VerticalTextAlignment="Center" Margin="5" FontSize="Medium"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </StackLayout>
+
+</ContentPage>

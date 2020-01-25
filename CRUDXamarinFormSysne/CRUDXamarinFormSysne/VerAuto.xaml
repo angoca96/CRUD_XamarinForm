@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CRUDXamarinFormSysne.VerAuto">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Label Text="ID Auto"/>
+            <Entry x:Name="Id"
+                />-->
+            <Label Text="Matricula Auto"/>
+            <Entry x:Name="Matricula"
+                />
+            <Label Text="Tipo de Auto"/>
+            <Picker x:Name="tipoAuto" Title="Tipo de auto" >
+                <Picker.Items>
+                    <x:String>Coche</x:String>
+                    <x:String>Camioneta</x:String>
+                    <x:String>Motocicleta</x:String>
+                    <x:String>Camión</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label Text="Nombre del Conductor"/>
+            <Entry x:Name="NombreConductor"
+                />
+
+            <Button x:Name="btnModificar" Text="Modificar" Clicked="btnModificar_Clicked"/>
+
+            <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

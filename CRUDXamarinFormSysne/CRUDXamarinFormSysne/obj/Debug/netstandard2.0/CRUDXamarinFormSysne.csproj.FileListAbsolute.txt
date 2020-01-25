@@ -1,0 +1,14 @@
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\bin\Debug\netstandard2.0\CRUDXamarinFormSysne.deps.json
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\bin\Debug\netstandard2.0\CRUDXamarinFormSysne.dll
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\bin\Debug\netstandard2.0\ref\CRUDXamarinFormSysne.dll
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\bin\Debug\netstandard2.0\CRUDXamarinFormSysne.pdb
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\obj\Debug\netstandard2.0\CRUDXamarinFormSysne.csprojAssemblyReference.cache
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\obj\Debug\netstandard2.0\CRUDXamarinFormSysne.AssemblyInfoInputs.cache
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\obj\Debug\netstandard2.0\CRUDXamarinFormSysne.AssemblyInfo.cs
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\obj\Debug\netstandard2.0\CRUDXamarinFormSysne.dll
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\obj\Debug\netstandard2.0\ref\CRUDXamarinFormSysne.dll
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\obj\Debug\netstandard2.0\CRUDXamarinFormSysne.pdb
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\angoc\source\repos\CRUDXamarinFormSysne\CRUDXamarinFormSysne\CRUDXamarinFormSysne\obj\Debug\netstandard2.0\VerAuto.xaml.g.cs
